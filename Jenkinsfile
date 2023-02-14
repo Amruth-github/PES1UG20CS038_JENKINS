@@ -17,7 +17,7 @@ pipeline {
         
         stage('Deploy') {
             steps {
-                eco 'Deployment'
+                echo 'Deployment'
             }
         }
     }
